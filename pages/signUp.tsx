@@ -2,22 +2,22 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 // Components
-import HomePage from "../components/HomePage/HomePage"
+import SignUp from "../components/SignUp/SignUp"
 
-const Home: NextPage = () => {
+const signUp: NextPage = () => {
   return (
     <div>
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet" />
-        <title>To-Do List</title>
+        <title>SignUp Page</title>
       </Head>
       <body>
 
-        <HomePage />
+        <SignUp />
 
       </body>
     </div>
   )
 }
 
-export default Home
+export default signUp
